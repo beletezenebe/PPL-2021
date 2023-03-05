@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <link  rel="stylesheet" type="text/css" href="bootstrap.min.css">
+
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  <script src="bootstrap.bundle.js" defer></script>
+  <title>ppl 2021</title>
+</head>
+<body>
+  <header class="py-2 bg-dark text-white">
+    <div class="container-fluid">
+      
+      <div class="d-flex flex-wrap align-items-center justify-content-evenly position-relative">
+      
+        <img src="epss.png" alt="epss"  class="rounded-3 d-none d-md-block" width="200" height="80"  >
+         
+      
+
+        <!-- <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
+          <li><a href="#" class="nav-link px-2 text-white">Features</a></li>
+          <li><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
+          <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
+          <li><a href="#" class="nav-link px-2 text-white">About</a></li>
+        </ul> -->
+
+        <form class="col-6  mb-3 mb-lg-0 me-lg-3">
+          <input type="search" class="form-control form-control-dark" placeholder="Search device..." aria-label="Search" id="search" data-search>
+        </form>
+
+        <div class="">
+         <p class="text-decoration-underline text-warning fs-3">PPL 2021</p>
+        
+        </div>
+        <div class="position-absolute top-0 end-0"><button class="btn btn-danger mt-2 " id="no">258</button></div>
+      </div>
+    </div>
+  </header>
+  
+
+  <div class="container p-3 align-items-center " data-user-cards-container></div>
+  
+  <template data-user-template>
+    <div class="row border-bottom shadow-sm">
+      
+      <div class="col-5" data-device ></div>
+      <div class="col-2 fs-6 text-lowercase" data-type ></div>
+      <div class="col-1 "  data-amount></div>
+      <div class="col-3 mt-1"  data-search></div>
+      <div class="col-1"  data-copy></div>
+      
+
+      
+    </div>
+  </template>
+
+
+
+  <h1 id="noitem" class="display-5 fw-bold text-center mt-5">welcome</h1>
+</body>
+</html>
