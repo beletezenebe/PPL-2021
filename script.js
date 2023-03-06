@@ -23,7 +23,8 @@ searchInput.addEventListener("input", e => {
 
   users.forEach(user => {
     const isVisible =
-      user.name.toLowerCase().includes(value)
+      user.name.toLowerCase().includes(value) 
+      
     user.element.classList.toggle("hide", !isVisible)
     
 
@@ -2621,7 +2622,7 @@ data=[
       "updatedAt": "2023-03-02T06:50:19.606Z",
       "__v": 0
   }
-].reverse()
+].sort((a,b) => a.device.localeCompare(b.device));
 
     users = data.map(user => {
       const card = userCardTemplate.content.cloneNode(true).children[0]
